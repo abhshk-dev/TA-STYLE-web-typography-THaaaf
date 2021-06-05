@@ -287,16 +287,13 @@ hr{
 .bg-color{
     background-color: #2d2640;
     padding:64px;
+    color: white;
     
 }
-.col-1-2{
-    flex:0 1  40%;
-}
-.col-1-2 h2{
-    color: #fff;
 
-}
+
 .btn-work{
+
     margin-left: 50px;
     width: 160px;
     height: 50px;
@@ -315,4 +312,44 @@ hr{
 .btn-work a{
     text-decoration: none;
     color: #fff;
+}
+
+/*-----footer section----*/
+.footer .container{
+   
+    padding: 0;
+}
+.footer{
+    margin-top: 60px;
+    
+    text-align: center;
+    color: grey;
+}
+.social{
+    border-bottom: 1px solid grey;
+}
+.footer h5{
+    font-size: 28px;
+    font-weight: 600;
+    color: #2d2640;
+    font-family: 'DM Serif Display', serif;;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 32px;
+    color: gray;
+}
+
+.footer-nav{
+    padding: 24px 0;
+    text-align: center;
+}
+.copyright{
+    margin-top: 16px;
+    text-align: center;
+    padding: 28px 0;
+    background-color: #2d2640;
+    color: grey;
+    font-size: 20px;
 }
